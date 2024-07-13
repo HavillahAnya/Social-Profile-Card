@@ -1,0 +1,94 @@
+#root {
+--Green: hsl(75, 94%, 57%);
+
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%);
+}
+
+/*CSSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 32rem;
+  border-radius: 0.8rem;
+  padding: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.card__img-box {
+  transform: translate(33%);
+}
+
+.card__img {
+  height: 8rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 2.3rem;
+}
+
+.card-header--main {
+  font-size: 2.3rem;
+  font-weight: 200;
+  display: block;
+}
+
+.card-header--sub {
+  font-size: 1.3rem;
+  color: hsl(75, 94%, 57%);
+  display: block;
+}
+
+.lead {
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.card-btn {
+  display: block;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-radius: 5px;
+}
+
+.card-btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
